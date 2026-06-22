@@ -19,4 +19,8 @@ This tool is designed to automate the Vs interpretation process from SCPT. As of
     - Updated input parameters for the National Model to be inverse-filtered qt and fs (Boulanger and DeJong, 2018).  
     - Added Kc plot and shading for Ic > 2.6 for National Model.  
     - Updated name to be Zhang et al. model.  
-    - Updated the cost function for the direct interpretation tool.
+    - Updated the cost function for the direct interpretation tool.  
+
+2026-06-22  
+	- Updated input parameters to be qc for the Zhang et al. Model (without pore pressure correction).  
+	- Updated the model offset "a" to be geology specifc.  
