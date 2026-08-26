@@ -24,3 +24,9 @@ This tool is designed to automate the Vs interpretation process from SCPT. As of
 2026-06-22  
 	- Updated input parameters to be qc for the Zhang et al. Model (without pore pressure correction).  
 	- Updated the model offset "a" to be geology specifc.  
+
+2026-08-25  
+    - Updated the all-in-one-tool to the most recent version and added function for exporting the site specific Vs result.  
+
+## Citation  
+Zhang, ZS, SJ Brandenberg, JP Stewart (2026). Algorithm for interpreting velocity profiles from seismic Cone Penetration Test data, 13th National Conference on Earthquake Engineering, Portland, OR, EERI
