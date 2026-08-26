@@ -1,28 +1,28 @@
 # SCPT_tool
 
-This tool is designed to automate the Vs interpretation process from SCPT. As of May 15, 2026, the direct interpretation tool is available in the folder with sample files. All-in-one tool is a comprehensive tool set for SCPT - Vs interpretation or Vs estimate from CPT data. The tool is currently at beta stage, more features will be added to the tool at its official release.  
+This tool is designed to automate the Vs interpretation process from SCPT. As of May 15, 2026, the layer-based regression tool is available in the folder with sample files. All-in-one tool is a comprehensive tool set for SCPT - Vs interpretation or Vs estimate from CPT data. The tool is currently at beta stage, more features will be added to the tool at its official release.  
 
 ## **User Guide**  
     
-1. If you wanted to purely interpret the traveltime data into stepped Vs profiles from SCPT, please use the direct interpretation tool  
-2. If you wanted to estimate Vs profiles from purely cone penetration data, please use the national model tool  
-3. Site-specific joint algorithm that leverage both the traveltime and cone penetration data is coming soon  
+1. If you wanted to purely interpret the traveltime data into stepped Vs profiles from SCPT, please use the layer-based regression tool.  
+2. If you wanted to estimate Vs profiles from purely cone penetration data, please use the ergodic model tool.  
+3. Site-specific joint algorithm that leverage both the traveltime and cone penetration data is included in the all-in-one tool.  
 
 
 ## Update Log 
     
 2026-05-19  
 	- Correction Made to the Robertson 2012 Calculation in the all-in-one tool.  
-	- National Model Tool is now available with the most recent version of the model and the corrected Robertson 2012 Calculation. 
+	- Ergodic model Tool is now available with the most recent version of the model and the corrected Robertson 2012 Calculation. 
 
 2026-06-01  
-    - Updated input parameters for the National Model to be inverse-filtered qt and fs (Boulanger and DeJong, 2018).  
-    - Added Kc plot and shading for Ic > 2.6 for National Model.  
+    - Updated input parameters for the ergodic model to be inverse-filtered qt and fs (Boulanger and DeJong, 2018).  
+    - Added Kc plot and shading for Ic > 2.6 for ergodic model.  
     - Updated name to be Zhang et al. model.  
-    - Updated the cost function for the direct interpretation tool.  
+    - Updated the cost function for the layer-based regression tool.  
 
 2026-06-22  
-	- Updated input parameters to be qc for the Zhang et al. Model (without pore pressure correction).  
+	- Updated input parameters to be qc for the Zhang et al. model (without pore pressure correction).  
 	- Updated the model offset "a" to be geology specifc.  
 
 2026-08-25  
